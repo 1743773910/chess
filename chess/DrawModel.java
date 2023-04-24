@@ -53,6 +53,7 @@ public class DrawModel extends JPanel{
     public void paint(Graphics g){
         int x, y, width, high;
         Toolkit defaultToolkit = Toolkit.getDefaultToolkit();// 获取Toolkit的实例
+        // 这个路径改为自己的背景图片的路径
         Image background = defaultToolkit.getImage("E:\\maven\\apache-maven-3.9.0-bin\\apache-maven-3.9.0\\mavenWorkSpace\\myJavaProjectes-master\\source\\blackground.GIF");
         g.drawImage(background, 0, 0, 800, 1000, this);
 //       通过图片路径得到图片对象
