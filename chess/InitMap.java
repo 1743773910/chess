@@ -18,6 +18,7 @@ public class InitMap {
 
 
     public Map[] getmaps() throws Exception{
+        // 这个路径改为自己的
         String filePath1 = "E:\\maven\\apache-maven-3.9.0-bin\\apache-maven-3.9.0\\mavenWorkSpace\\myJavaProjectes-master\\source\\chess";
         File file1 = new File(filePath1);
         int x = 20,y = 25,width = 80,high = 80;
